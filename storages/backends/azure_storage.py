@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 from tempfile import SpooledTemporaryFile
 
 from azure.common import AzureMissingResourceHttpError
-from azure.storage.blob import BlobPermissions, ContentSettings
+from azure.storage.blob import BlobSasPermissions, ContentSettings
 from azure.storage.blob.blockblobservice import BlockBlobService
 from django.core.exceptions import SuspiciousOperation
 from django.core.files.base import File
